@@ -9,5 +9,5 @@ export const UserBox = styled(Box)({
     display:"flex",
     flexDirection:"column",
     alignItems:"center",
-    margin:"1rem 0"
+    margin:"0rem 0"
 })

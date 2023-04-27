@@ -44,6 +44,8 @@ const styles = {
         display:"flex",
         justifyContent:"space-between",
         alignItems:"center", 
+        position:'relative',
+        left:"",
         p:2
     },
 
