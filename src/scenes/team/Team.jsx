@@ -72,10 +72,18 @@ const Team = () => {
     return (
         <Box m={"20px"}>
             <Header title={"TEAM"} subtitle={"Managing the team Members"}/>
-            <Box>
+            <Box 
+            // m={"30px 0 0 0"}
+            // height={"75vh"}
+            >
                 <DataGrid
                 rows={mockDataTeam}
                 columns={columns}
+                pageSize={[25]}
+                rowPerPageOptions={[25]}
+                checkboxSelection
+                autoHeight
+                rowHeight={40}
                 />
             </Box>
         </Box>
